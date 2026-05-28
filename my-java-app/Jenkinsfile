@@ -21,7 +21,7 @@ pipeline{
         stage('clone')
         {
             steps{
-                git url : "https://github.com/Dhruvamaheshwari/jenkins_etp_sem_6_java_v2.git",
+                git url : "https://github.com/Dhruvamaheshwari/jenkins_etp_sem_6_java_v2/tree/main/my-java-app",
                 branch: "main"
             }
         }
