@@ -1,4 +1,4 @@
-FROM eclipse-temurein:23jdk
+FROM eclipse-temurein:23-jdk
 
 WORKDIR /app
 
